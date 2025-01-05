@@ -1,3 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500..800&display=swap');
+
+@font-face {
+  font-family: 'Thinker';
+  src: url('/src/assets/fonts/Thinker.woff2') format('woff2'),
+       url('/src/assets/fonts/Thinker.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ThinkerAlt2';
+  src: url('/src/assets/fonts/ThinkerAlt2.woff2') format('woff2'),
+       url('/src/assets/fonts/ThinkerAlt2.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
