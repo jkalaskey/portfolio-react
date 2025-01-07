@@ -56,6 +56,9 @@ export default {
           orange: '#F4DACA',
           pink: '#F4D7E4',
         },
+        blue: {
+          600: '#364F61',
+        },
       },
       backgroundImage: {
         'bg-black': 'url(/src/assets/images/black-bg.png)',
