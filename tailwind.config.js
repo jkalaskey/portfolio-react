@@ -61,9 +61,11 @@ export default {
         },
       },
       backgroundImage: {
-        'bg-black': 'url(/src/assets/images/black-bg.png)',
-        'bg-paper': 'url(/src/assets/images/paper-bg.png)',
-        'bg-floating-paper': 'url(/src/assets/images/floating-paper-bg.png)',
+        'bg-black': 'url(/src/assets/images/backgrounds/black-bg.png)',
+        'bg-paper': 'url(/src/assets/images/backgrounds/paper-bg.png)',
+        'bg-floating-paper': 'url(/src/assets/images/backgrounds/floating-paper-bg.png)',
+        'btn-ghost': "url('assets/images/button/btn-ghost-outline.png')",
+        'btn-ghost-hover': "url('assets/images/button/btn-ghost-solid.png')",
       },
       boxShadow: {
         'paper': '0px -6px 2px 0px rgba(0, 0, 0, 0), 0px -4px 2px 0px rgba(0, 0, 0, 0.03), 0px -2px 1px 0px rgba(0, 0, 0, 0.10), 0px -1px 1px 0px rgba(0, 0, 0, 0.17), 0px 0px 1px 0px rgba(0, 0, 0, 0.20)',
@@ -133,6 +135,9 @@ export default {
         'right': 'right center',
         'corner-fold': '0 0',  // For paper corner fold effects
         'diagonal-fold': '100% 0',  // For diagonal fold animations
+      },
+      minWidth: {
+        'button': '170px',
       },
     },
   },
